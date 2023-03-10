@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CV - Leandro Coggiola</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a href="#"><img src="assets/logo-arg-prog.png" alt="Argentina Programa" class="navbar-brand-img"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" onclick="setActive(event); scrollToSection('about-me')">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="setActive(event);scrollToSection('experience')">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="setActive(event);scrollToSection('education')">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="setActive(event);scrollToSection('skills')">Aptitudes e idiomas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="setActive(event);scrollToSection('projects')">Proyectos</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" >
+                      <button class="btn btn-primary" type="button">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main data-bs-theme="dark">
+            <section id="section-about-me">
+                <article id="banner">
+                    <figure>
+                        <figcaption>
+                            <h1>LEANDRO COGGIOLA</h1>
+                            <h2>Web UI Developer</h2>
+                        </figcaption>
+                        <img src="assets/profile-pic.png" alt="Profile Pic">
+                    </figure>
+                </article>
+                <article id="about-me-description">
+                    <h1>Sobre mí</h1>
+                    <div class="custom-underline"></div>
+                    <p>Professional with one years of experience on Web Projects as Web UI developer and two years’ experience on Quality Assurance as Test Automation Engineer. I consider myself as a versatile worker, with interest in learning new skills, open-minded, predisposed, and I learn from mistakes. I am a native Spanish speaker and intermediate English speaker. </p>
+                </article>
+            </section>
+            <section id="section-experience" class="container-fluid">
+                <h1>Experiencia</h1>
+                <div class="custom-underline"></div>
+                <h2>Globant</h2>
+                <div class="grid-container">
+                    <article >
+                        <h3>Web User Interface Developer</h3>
+                        <p>
+                            <strong>Enero 2022 - Actualidad</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Lead developer on the creation of an API catalog module for consulting, testing and subscription process on APIs and an API creation module so developer teams can consult, add, update or deprecate APIs and manage their subscription request. Both module are based on a micro-frontend approach with Lerna using ReactJS, Redux, javascript, auth0 and siglar.</li>
+                            <li>Defined, validated and documented multiple user stories, setting the US points, tasks creation, and acceptance criteria and test cases definitions with the QA team.</li>
+                            <li>Created multiples and reusable ReactJS components being use on different micro-frontends.</li>
+                            <li>Managed and coordinated frontend team as tech lead.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Test Automation Engineer for Discovery+</h3>
+                        <p>
+                            <strong>Mayo 2021 - Enero 2022</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Helped with the creation of multiple automated sanity tests using Javascript and Cypress and based on the application's core requirements.</li>
+                            <li>Collaborated in severals manual regression and smoke testing runs and tracking the results on TestRail.</li>
+                            <li>Collaborated in creating new stories, several bug reports, retesting and uploading evidences, using JIRA and readapting test cases on TestRail.</li>
+                        </ul>
+                    </article>
+                    <article >
+                        <h3>Test Automation Engineer for IHS Markit</h3>
+                        <p>
+                            <strong>Mayo 2020 - Mayo 2021</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Created multiple UI automated tests using Javascript, TestCafe and Cucumber based on requirements on new features, old features and maintenances on already created tests.</li>
+                            <li>Collaborated in creating new stories, fixes on regressions runs and, documentation and knowledge transfer for new automation members</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Test Automation Engineer for SoFi</h3>
+                        <p>
+                            <strong>Junio 2019 - Mayo 2020</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Created multiple automated tests (UI/API) using Java, Retrofit2, Selenium and JUnit to fullfill requirements on new features, old features and maintenances on already created tests.</li>
+                            <li>Worked on the base framework to create UI mobile automated tests for Android using Kotli and Espresso.</li>
+                            <li>Created many SQL scripts to use on automated tests.</li>
+                            <li>Collaborated in creating new stories, bug reports, fixes on regressions runs and documenting tests on TestRail.</li>
+                        </ul>
+                    </article>
+                </div>
+                <h2>Ministerio de Justicia y Derechos Humanos</h2>
+                <div class="grid-container">
+                    <article >
+                        <h3>Pasante</h3>
+                        <p>
+                            <strong>Octubre 2018 - Abril 2019</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Developed an online documents manager on ASP.NET MVC with PL/SQL and FTP communication.</li>
+                            <li>Manual testing for RUNNA service: Error reports, documentation and test cases design.</li>
+                        </ul>
+                    </article>
+                </div>
+                <h2>Universidad Católica de Córdoba</h2>
+                <div class="grid-container">
+                    <article >
+                        <h3>Fullstack Developer</h3>
+                        <p>
+                            <strong>Junio 2017 - Diciembre 2019</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Developed a web application that allows defining menus adapted to the needs of users. These menus are designed based on the nutritional needs and preferences of the users, and using recipes loaded by the community.</li>
+                            <li>The application was developed using MEAN stack - Angular2, Express.Js, NodeJs and MongoDB.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Software Developer</h3>
+                        <p>
+                            <strong>Marzo 2017 - Junio 2017</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Developed a maintenance control system for vehicles in stock for Autocity using Angular2, Express.Js, NodeJs and MongoDB</li>
+                        </ul>
+                    </article>
+                    <article >
+                        <h3>Requirements analyst</h3>
+                        <p>
+                            <strong>Julio 2016 - Diciembre 2016</strong>
+                            <br>Córdoba, Argentina
+                        </p>
+                        <ul>
+                            <li>Determined the list of requirements for a medical records system for the institution Misión Esperanza.</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="section-education">
+                <h1>Educación</h1>
+                <div class="custom-underline"></div>
+                <div class="grid-container">
+                    <article >
+                        <h3>Web UI Developer career path training at Globant</h3>
+                        <ul>
+                            <li>Studied and reviewed basics and advances concepts on HTML, CSS, JavaScript, SEO and Accessibility.</li>
+                            <li>Developed a web application using vanilla HTML, CSS and Javascript with api requests using fetch.</li>
+                            <li>Implemented technologies like SASS, boostrap and loadash.</li>
+                            <li>Learned React framework, rebuild the web application using React, and implemented unit tests using React Jest.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Online Courses at Udemy</h3>
+                        <ul>
+                            <li>Web Development with JavaScript, Angular, NodeJS and MongoDB - Status: Complete</li>
+                            <li>Webpack 5: The Complete Guide For Beginners - Status: Complete</li>
+                            <li>Microfrontends with React: A Complete Developer's Guide - Status: On course</li>
+                            <li>React - The Complete Guide (incl Hooks, React Router, Redux) - Status: On course</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3>Systems Engineering at Universidad Católica de Córdoba</h3>
+                        <ul>
+                            <li>Promedio sin aplazos: 7.53</li>
+                            <li>Promedio sin aplazos: 8.13</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="section-skills">
+                <h1>Hard & Soft Skills</h1>
+                <span><i>Based on peers feedback</i></span>
+                <div class="custom-underline"></div>
+                <article >
+                    <h2>Languages</h2>
+                    <div class="row aptitudes-container">
+                        <div class="col-4">
+                            <span>Español</span>
+                        </div>
+                        <div class="col progress-bar-container">
+                            <div class="progress" role="progressbar"  style="height: 5px">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article >
+                    <h2>Hard Skills</h2>
+                    <div class="row aptitudes-container">
+                        <div class="col-4">
+                            <span>Español</span>
+                        </div>
+                        <div class="col progress-bar-container">
+                            <div class="progress" role="progressbar"  style="height: 5px">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article >
+                    <h2>Soft Skills</h2>
+                    <div class="row aptitudes-container">
+                        <div class="col-4">
+                            <span>Español</span>
+                        </div>
+                        <div class="col progress-bar-container">
+                            <div class="progress" role="progressbar"  style="height: 5px">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="section-projects">
+                
+            </section>
+        </main>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="output/app.js"></script>
+    </body>
+</html>
